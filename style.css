@@ -25,7 +25,7 @@ html,body{
 .currcontainer h2{
     color: #8367C7;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7vw;
     margin-bottom: 10px;
 }
 .inputbox{
@@ -34,8 +34,9 @@ html,body{
     align-items: center;
 }
 label{
+    font-size: 1.3vw;
     color: #692dff;
-    font-weight: 600;
+    font-weight: 500;
 }
 input{
     padding: 4px 10px;
@@ -53,7 +54,7 @@ input{
     margin: 10px 0;
 }
 .dropdown p{
-    font-size: 1.3rem;
+    font-size: 1.4vw;
     color: #7a19e3;
     font-weight: 600;
 }
@@ -93,4 +94,151 @@ button{
     font-weight: 600;
     cursor: pointer;
     padding: 8px 15px;
+}
+@media (max-width: 784px) {
+    .dropdown p{
+        font-size: 2.1vw;
+        color: #7a19e3;
+        font-weight: 600;
+    }
+    .currcontainer h2{
+        font-size: 3vw;
+    }
+    label{
+        font-size: 2.2vw;
+    }
+    .msg{
+        font-size: 2.2vw;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .inputbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .dropdown p{
+        font-size: 3vw;
+        color: #7a19e3;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .currcontainer h2{
+        font-size: 4.5vw;
+    }
+    
+    label{
+        font-size: 3.5vw;
+        margin-bottom: 8px;
+    }
+
+    .msg{
+        font-size: 3.4vw;
+    }
+
+    input{
+        width: 100%;
+        padding: 5px 10px;
+        margin-left: 0;
+        font-size: 3.2vw;
+    }
+
+    .dropdowncont{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .dropdowncont img{
+        width: 30px;
+        aspect-ratio: 3.2/3;
+        margin-right: 8px;
+    }
+
+    button{
+        font-size: 3vw;
+        border-radius: 15px;
+        padding: 5px 10px;
+    }
+
+    .dropdowncont select{
+        padding: 2px;
+    }
+}
+
+@media (max-width: 250px) {
+
+    .inputbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .dropdown p{
+        font-size: 3.5vw;
+        color: #7a19e3;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .currcontainer h2{
+        font-size: 5vw;
+    }
+    
+    label{
+        font-size: 4vw;
+        margin-bottom: 8px;
+    }
+
+    .msg{
+        font-size: 4vw;
+    }
+
+    input{
+        width: 100%;
+        padding: 5px 10px;
+        margin-left: 0;
+        font-size: 3.7vw;
+    }
+
+    .dropdowncont{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .dropdowncont img{
+        width: 30px;
+        aspect-ratio: 3.2/3;
+        margin-right: 8px;
+    }
+
+    button{
+        font-size: 3.5vw;
+        border-radius: 15px;
+        padding: 5px 10px;
+    }
+
+    .dropdowncont select{
+        padding: 2px;
+    }
+    svg{
+        margin: 5px;
+        transform: rotate(90deg);
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
 }
