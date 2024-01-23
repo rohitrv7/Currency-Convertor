@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: navajowhite;
+}
+.currcontainer{
+    padding: 20px;
+    border-radius: 10px;
+    background: #C2F8CB;
+    border: 1px solid #B3E9C7;
+}
+.currcontainer h2{
+    color: #8367C7;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: #692dff;
+    font-weight: 600;
+}
+input{
+    padding: 4px 10px;
+    border: 1px solid #7a19e3;
+    color: #7a19e3;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 8px;
+    font-size: 1.1rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.dropdown p{
+    font-size: 1.3rem;
+    color: #7a19e3;
+    font-weight: 600;
+}
+.dropdowncont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdowncont img{
+    width: 50px;
+    aspect-ratio: 3.2/3;
+    margin-right: 8px;
+}
+svg{
+    margin: 28px 6px 0 6px;
+}
+.dropdowncont select{
+    border-radius: 8px;
+    outline: none;
+    padding: 8px;
+    color: #7a19e3;
+    border: 1px solid #7a19e3;
+}
+.msg{
+    display: flex;
+    align-items: center;
+    color: #692dff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+button{
+    border-radius: 20px;
+    outline: none;
+    background: #7a19e3;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 15px;
+}

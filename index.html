@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curency convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="currcontainer">
+            <h2>Currency Convertor</h2>
+            <div class="inputbox">
+                <label for="amount">Amount:</label>
+                <input type="number" value="1" name="amount" id="amount">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="dropdowncont">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from" id=""></select>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(128, 0, 255);transform: msFilter;"><path d="M19.924 10.383a1 1 0 0 0-.217-1.09l-5-5-1.414 1.414L16.586 9H4v2h15a1 1 0 0 0 .924-.617zM4.076 13.617a1 1 0 0 0 .217 1.09l5 5 1.414-1.414L7.414 15H20v-2H5a.999.999 0 0 0-.924.617z"></path></svg>
+                <div class="to">
+                    <p>To</p>
+                    <div class="dropdowncont">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                        <select name="to" id=""></select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD = 83.3 INR</div>
+            <button>Convert</button>
+        </div>
+    </div>
+    
+
+    <script src="countrycode.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
